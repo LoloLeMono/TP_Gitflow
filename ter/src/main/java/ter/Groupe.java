@@ -98,55 +98,6 @@ public class Groupe {
 	System.out.println(this);
   }
   
-  
-  
-  
-  /*
-  public boolean addVoeu(int ordre, Sujet suj) throws cantAddVoeu
-  {
-    if(ordre > 0 && ordre < 6)
-    {
-      if(!this.isSujetInVoeu(suj))
-      {
-        if(!this.voeux.keySet().contains(ordre))
-        {
-          this.voeux.put(ordre, suj);
-        } else {
-        	throw new cantAddVoeu("L'ordre a déjà été rempli");
-        }
-      } else {
-    	  throw new cantAddVoeu("Le sujet a déjà été choisi");
-      }
-    } else {
-    	throw new cantAddVoeu("L'ordre du voeu doit être entre 1 et 5");
-    }
-    
-    boolean complet = true;
-    
-    for(int i=1; i<6; i++)
-    {
-      if(this.voeux.get(i) == null)
-      {
-        complet = false;
-      }
-    }
-    if(complet)
-    {
-      this.voeuFini = true;
-    }
-    return true;
-  }
- */
-
-
-  public String toString()
-  {
-    String str = this.nomRef + " (id:" + this.id + ")\n"; 
-    for(Integer key : this.voeux.keySet()) {
-      str += "--" + key + ": " + this.voeux.get(key).toString() + "\n";
-    }
-    return str;
-  }
 
 }
 

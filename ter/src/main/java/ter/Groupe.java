@@ -100,9 +100,3 @@ public class Groupe {
   
 
 }
-
-/*
- private HashMap<String, NoticeBiblio> catalogue;
-
-  public Catalogue() {
-    catalogue = new HashMap<String, NoticeBiblio>();**/

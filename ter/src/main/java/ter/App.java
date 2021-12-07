@@ -114,23 +114,5 @@ public class App
         }
         
         
-        
-		
-        /*
-        //serialiser données groupe et voeu
-        ges.serializeGroupe();
-        ges.serializeSujet();
-        System.out.println("\n-----------------\nSerialisation:\n");
-
-        //reinitialiser l'app
-        ges = new GestionTER();
-        System.out.println("\n-------------------\nReinitialisation:\n" + ges.toString() + "\n");
-
-        //ges.importSujet(sujetSer);
-        ges.importGroupe();
-        ges.importSujet();
-
-        System.out.println(ges.toString());
-        */
     }
 }
